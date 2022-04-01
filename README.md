@@ -44,7 +44,7 @@ _
 _
 *i) # To Read,display the image*
 
-  python
+ ```python
   import 
   cv2.imshow('color image',color_image)
   gray_image=cv2.imread('x.jpg',0)
@@ -52,7 +52,7 @@ _
   cv2.imshow('grayimage',gray_image)
   cv2.waitKey(0)
 
-  
+  ```
 
 **ii) #To write the image**
     
